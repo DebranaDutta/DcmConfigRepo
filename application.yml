@@ -1,2 +1,8 @@
-app:
-  name: Default
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mydb
+    username: root
+    password: root
