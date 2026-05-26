@@ -3,6 +3,8 @@ spring:
     url: jdbc:mysql://localhost:3306/mydb
     username: root
     password: root
+  application:
+    name: DEFAULT-CONFIG
 
 eureka:
   client:
