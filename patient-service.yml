@@ -1,6 +1,6 @@
 spring:
   application:
-    name: DoctorService
+    name: PatientService
   cloud:
     discovery:
       enabled: true
