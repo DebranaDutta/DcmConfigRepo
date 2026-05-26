@@ -37,3 +37,5 @@ management:
       enabled: true
     diskspace:
       enabled: true
+  metrics:
+    tags: ${spring.application.name}
