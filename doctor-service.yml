@@ -38,4 +38,4 @@ management:
     diskspace:
       enabled: true
   metrics:
-    tags: ${spring.application.name}
+    tags: "${spring.application.name}"
